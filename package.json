@@ -7,7 +7,9 @@
     "prova": "./bin/prova"
   },
   "scripts": {
-    "test": "prova test/{index,multiple}.js"
+    "test": "npm run test-node && npm run test-browser",
+    "test-node": "./bin/prova test/{index,multiple}.js",
+    "test-browser": "./bin/prova test/{index,multiple}.js -b -l phantom"
   },
   "dependencies": {
     "browser-launcher": "^1.0.0",
@@ -59,5 +61,8 @@
     "type": "git"
   },
   "author": "azer",
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": {
+    "phantomjs": "^1.9.17"
+  }
 }
