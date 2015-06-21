@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "browser-launcher": "^1.0.0",
-    "browserify": "^6.2.0",
+    "browserify": "^10.2.4",
     "component-delegate": "^0.2.3",
     "concat-stream": "^1.4.4",
     "default-debug": "0.0.0",
@@ -24,12 +24,12 @@
     "failing-code": "0.1.x",
     "faye-websocket": "^0.7.3",
     "filter-stack": "0.0.0",
-    "flat-glob": "0.0.1",
+    "flat-glob": "megawac/flat-glob#globbers",
     "format-text": "0.0.3",
-    "glob": "^4.0.6",
+    "glob": "^5.0.0",
     "is-node": "0.0.0",
     "key-event": "0.0.0",
-    "left-pad": "0.0.3",
+    "left-pad": "0.0.4",
     "local-debug": "0.0.0",
     "mime": "^1.2.11",
     "new-command": "^1.0.2",
@@ -43,10 +43,10 @@
     "single-line-log": "^0.4.1",
     "stream-format": "0.0.3",
     "style-format": "0.0.0",
-    "tape": "^3.0.0",
+    "tape": "^4.0.0",
     "through": "~2.3.4",
     "user-agent-parser": "^0.6.0",
-    "watchify": "^2.1.1"
+    "watchify": "^3.0.0"
   },
   "keywords": [
     "testing",
